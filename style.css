@@ -1,0 +1,120 @@
+@font-face {
+    font-family: karla;
+    src: url("./fonts/karla_regular.ttf");
+}
+@font-face {
+    font-family: pacifico;
+    src: url("./fonts/pacifico.ttf");
+}
+
+section
+{
+    width: 1140px;
+    background-color: white;
+    font-size: 16px;
+    font-family: karla, pacifico, sans-serif;
+    color: #2d2d2d;
+    margin: auto;
+    text-align: center;
+    
+}
+.label
+{
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+}
+header
+{
+background-color: black;
+text-align: center;
+font-size: 40px;
+height: 100px;
+
+}
+/* comments again mate*/
+h1
+{
+    font-size: 113px;
+    height: 180px;
+    font-family: pacifico;
+    margin: 30px 0 0 0;
+    text-shadow: 2px 2px 4px #646464;
+    
+}
+h2
+ {
+    font-family: pacifico;
+    color: #646464;
+    font-size: 50px;
+    margin: auto;
+    width: 50%;
+}
+.logo
+{
+  height: 90px;
+  width: 200px;
+}
+.boat
+{
+    background-image: url("./images/kayak-bkgd.jpg");
+    color: white;
+    background-size: cover;
+    height: 562px;
+    padding: 30px;    
+    
+}
+
+.subheading
+{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px grey;
+    font-family: pacifico;   
+    margin: 0px; 
+}
+.details
+{
+    font-size: 25px;
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+        background: rgba(54, 25, 25, .6);
+        margin: 40px 185px 60px 185px;
+    width: 69%;
+    height: 30px;
+}
+
+button
+ {
+    background-color: #e2574c;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.about
+{
+    color: #2d2d2d;
+    background-color: white;
+    margin: 30px 0 0 0;
+
+}
+.description
+{
+    width: 740px;
+    background-size: cover;
+    margin: 25px 200px;
+    line-height: 30px;
+}
+.imgContainer{
+    float:left;
+    margin: 20px;
+}
+.image123
+{
+    margin: auto;
+    width: 90%;
+    height: 300px;
+}
