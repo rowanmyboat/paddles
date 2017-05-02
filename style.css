@@ -21,11 +21,11 @@ section {
     margin: 20px 0px 0px 0px;
     font-size: 30px;
 }
-header {
+nav {
 background-color: black;
 text-align: center;
 font-size: 40px;
-height: 100px;
+height: 60px;
 
 }
 /* comments again mate*/
@@ -45,8 +45,12 @@ h2 {
     width: 50%;
 }
 .logo {
-  height: 90px;
-  width: 200px;
+ 
+    width: 18%;
+    padding: 1% 1% 1% 2%;
+}
+.logo-pic {
+    width: 100%;
 }
 .boat {
     background-image: url("./images/kayak-bkgd.jpg");
