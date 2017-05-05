@@ -33,6 +33,10 @@ height: 60px;
     font-size: 20px;
     font-style: bold;
 }
+.nav-grid {
+     display: flex;
+     align-items: center;
+}
 /* comments again mate*/
 h1 {
     font-size: 113px;
@@ -51,7 +55,7 @@ h2 {
 }
 .logo {
     flex: 1;
-    width: 18%;
+    
     padding: 1% 1% 1% 2%;
 }
 .nav-space {
@@ -109,6 +113,7 @@ button {
     }
 .Grid {
     display: flex;
+    
 }
 .Grid-cell {
     flex: 1;
