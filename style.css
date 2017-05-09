@@ -8,13 +8,23 @@
 }
 
 section {
-    width: 1140px;
+    width: 80%;
     background-color: white;
     font-size: 16px;
     font-family: karla, pacifico, sans-serif;
     color: #2d2d2d;
     margin: auto;
-    text-align: center;   
+    text-align: center;
+     }
+article {
+    padding: 10px;
+}
+.nav-header {
+    display: inline;
+}
+header {
+  width: 100%; 
+  top: 0;   
 }
 .label {
     margin: 20px 0px 0px 0px;
@@ -23,28 +33,38 @@ section {
 nav {
 background-color: black;
 text-align: center;
-font-size: 40px;
 height: 60px;
+width: inherit;
+top: 0;
 }
-.nav-cell {
-    flex: 0.3;
-    margin: 2%;
+.nav-list {
     color: white;
     font-size: 20px;
-    font-style: bold;
+    display: inline;
 }
 .nav-grid {
      display: flex;
      align-items: center;
+     justify-content: space-between;
+     height: 100%;
+}
+.nav-grid div{
+    padding: 0 10px 0 10px;
+}
+.logo {
+   width: 21%;
+}
+.logo-pic {
+    width: 100%;
 }
 /* comments again mate*/
 h1 {
     font-size: 113px;
-    height: 180px;
+    width: 100%;
     font-family: pacifico;
-    margin: 30px 0 0 0;
+    margin: 30px 0 15px 0;
     text-shadow: 2px 2px 4px #646464;
-    
+    text-align: center;
 }
 h2 {
     font-family: pacifico;
@@ -53,17 +73,7 @@ h2 {
     margin: auto;
     width: 50%;
 }
-.logo {
-    flex: 1;
-    
-    padding: 1% 1% 1% 2%;
-}
-.nav-space {
-    flex: 3;
-}
-.logo-pic {
-    width: 100%;
-}
+
 .boat {
     background-image: url("./images/kayak-bkgd.jpg");
     color: white;
@@ -101,21 +111,46 @@ button {
     color: #2d2d2d;
     background-color: white;
     margin: 30px 0 0 0;
+    width: 100%;
 }
 .description {
-    width: 740px;
-    background-size: cover;
-    margin: 25px 200px;
+    width: 60%;
     line-height: 30px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
 }
 .pics {
     width: 100%;
     }
-.Grid {
+.grid {
     display: flex;
-    
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 .Grid-cell {
-    flex: 1;
-    margin: 2%;
+  width: 30%;
+}
+footer {
+display: flex;
+background-color: black;
+color: white;
+height: 250px;
+align-items: center;
+justify-content: space-between;
+}
+.footer-left {
+text-align: left;
+padding-left: 50px;
+}
+.footer-left p {
+    padding: 6px;
+}
+.footer-right {
+text-align: left;
+padding: 90px;
+}
+.footer-left .lowlight {
+    color: darkgray;    
 }
