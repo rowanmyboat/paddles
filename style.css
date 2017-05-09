@@ -27,14 +27,15 @@ header {
   top: 0;   
 }
 .label {
-    margin: 20px 0px 0px 0px;
+    margin: 0;
     font-size: 30px;
+    padding: 20px 0 0 0;
 }
 nav {
 background-color: black;
 text-align: center;
 height: 60px;
-width: inherit;
+width: 100%;
 top: 0;
 }
 .nav-list {
@@ -59,7 +60,7 @@ top: 0;
 }
 /* comments again mate*/
 h1 {
-    font-size: 113px;
+    font-size: 7.5vw;
     width: 100%;
     font-family: pacifico;
     margin: 30px 0 15px 0;
@@ -69,7 +70,7 @@ h1 {
 h2 {
     font-family: pacifico;
     color: #646464;
-    font-size: 50px;
+    font-size: 2.9vw;
     margin: auto;
     width: 50%;
 }
@@ -78,34 +79,44 @@ h2 {
     background-image: url("./images/kayak-bkgd.jpg");
     color: white;
     background-size: cover;
-    height: 562px;
-    padding: 30px;      
+    
+    height: 590px;
+    position: relative;
+    top: 0;
+     
+    margin: auto;   
+}
+.boat div {
+    margin: 2vw;
 }
 .subheading {
-    font-size: 50px;
+    font-size: 3.2vw;
     text-shadow: 2px 2px 4px grey;
     font-family: pacifico;   
-    margin: 0px; 
+    
 }
 .details {
-    font-size: 25px;
+    font-size: 1.7vw;
     background: rgb(54, 25, 25); /* Fall-back for browsers that don't
                                     support rgba */
         background: rgba(54, 25, 25, .6);
-        margin: 40px 185px 60px 185px;
-    width: 69%;
-    height: 30px;
+       
+    height: 2.2vw;
+    text-align: center;
+    width: 67%;
+    margin: auto;  
 }
 button {
     background-color: #e2574c;
     border: none;
     color: white;
-    padding: 5px 16px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
-    border-radius: 20px;
+    font-size: 2vw;
+    border-radius: 29px;
+    margin: 2vw;
 }
 .about {
     color: #2d2d2d;
