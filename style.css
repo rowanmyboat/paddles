@@ -7,161 +7,328 @@
     src: url("./fonts/pacifico.ttf");
 }
 
-section {
-    width: 80%;
-    background-color: white;
-    font-size: 16px;
-    font-family: karla, pacifico, sans-serif;
-    color: #2d2d2d;
-    margin: auto;
-    text-align: center;
-     }
-article {
-    padding: 10px;
-}
-.nav-header {
-    display: inline;
-}
-header {
-  width: 100%; 
-  top: 0;   
-}
-.label {
-    margin: 0;
-    font-size: 30px;
-    padding: 20px 0 0 0;
-}
-nav {
-background-color: black;
-text-align: center;
-height: 60px;
-width: 100%;
-top: 0;
-}
-.nav-list {
-    color: white;
-    font-size: 20px;
-    display: inline;
-}
-.nav-grid {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     height: 100%;
-}
-.nav-grid div{
-    padding: 0 10px 0 10px;
-}
-.logo {
-   width: 21%;
-}
-.logo-pic {
-    width: 100%;
-}
-/* comments again mate*/
-h1 {
-    font-size: 7.5vw;
-    width: 100%;
-    font-family: pacifico;
-    margin: 30px 0 15px 0;
-    text-shadow: 2px 2px 4px #646464;
-    text-align: center;
-}
-h2 {
-    font-family: pacifico;
-    color: #646464;
-    font-size: 2.9vw;
-    margin: auto;
-    width: 50%;
-}
+/* Media for larger devices */
+@media screen and (min-width: 600px) {
+ 
+        section {
+            width: 80%;
+            background-color: white;
+            font-size: 16px;
+            font-family: karla, pacifico, sans-serif;
+            color: #2d2d2d;
+            margin: auto;
+            text-align: center;
+            }
+        article {
+            padding: 1.2vw;
+        }
+        .nav-header {
+            display: inline;
+        }
+        header {
+        width: 100%; 
+        top: 0;   
+        }
+        .label {
+            margin: 0;
+            font-size: 2.5vw;
+            padding: 20px 0 0 0;
+        }
+        nav {
+        background-color: black;
+        text-align: center;
+        height: 5vw;
+        width: 100%;
+        top: 0;
+        }
+        .nav-list {
+            color: white;
+            font-size: 2vw;
+            display: inline;
+        }
+        .nav-grid {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+        }
+        .nav-grid div{
+            padding: 0 10px 0 10px;
+        }
+        .logo {
+        width: 21%;
+        }
+        .logo-pic {
+            width: 100%;
+        }
+        /* comments again mate*/
+        h1 {
+            font-size: 7.5vw;
+            width: 100%;
+            font-family: pacifico;
+            margin: 3.3vw 0 1.8vw 0;
+            text-shadow: 2px 2px 4px #646464;
+            text-align: center;
+        }
+        h2 {
+            font-family: pacifico;
+            color: #646464;
+            font-size: 2.9vw;
+            margin: auto;
+            width: 50%;
+        }
 
-.boat {
-    background-image: url("./images/kayak-bkgd.jpg");
-    color: white;
-    background-size: cover;
-    
-    height: 590px;
-    position: relative;
-    top: 0;
-     
-    margin: auto;   
+        .boat {
+            background-image: url("./images/kayak-bkgd.jpg");
+            color: white;
+            background-size: cover;
+            
+            height: 42.5vw;
+            position: relative;
+            top: 0;
+            
+            margin: auto;   
+        }
+        .boat div {
+            margin: 2vw;
+        }
+        .subheading {
+            font-size: 3.2vw;
+            text-shadow: 2px 2px 4px grey;
+            font-family: pacifico;   
+            
+        }
+        .details {
+            font-size: 1.7vw;
+            background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                            support rgba */
+                background: rgba(54, 25, 25, .6);
+            
+            height: 2.2vw;
+            text-align: center;
+            width: 67%;
+            margin: auto;  
+        }
+        button {
+            background-color: #e2574c;
+            border: none;
+            color: white;
+            padding: 1vw 2vw;
+            text-align: center;
+            text-decoration: none;
+            font-size: 2vw;
+            border-radius: 29px;
+            margin: 2vw;
+            width: 17vw;
+        }
+        .about {
+            color: #2d2d2d;
+            background-color: white;
+            margin: 30px 0 0 0;
+            width: 100%;
+        }
+        .description {
+            width: 60%;
+            line-height: 30px;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+        }
+        .pics {
+            width: 100%;
+            }
+        .grid {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .Grid-cell {
+        width: 30%;
+        }
+        footer {
+        display: flex;
+        background-color: black;
+        color: white;
+        height: 250px;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .footer-left {
+        text-align: left;
+        padding-left: 50px;
+        }
+        .footer-left p {
+            padding: 6px;
+        }
+        .footer-right {
+        text-align: left;
+        padding: 90px;
+        }
+        .footer-left .lowlight {
+            color: darkgray;    
+        }
 }
-.boat div {
-    margin: 2vw;
-}
-.subheading {
-    font-size: 3.2vw;
-    text-shadow: 2px 2px 4px grey;
-    font-family: pacifico;   
-    
-}
-.details {
-    font-size: 1.7vw;
-    background: rgb(54, 25, 25); /* Fall-back for browsers that don't
-                                    support rgba */
-        background: rgba(54, 25, 25, .6);
-       
-    height: 2.2vw;
-    text-align: center;
-    width: 67%;
-    margin: auto;  
-}
-button {
-    background-color: #e2574c;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2vw;
-    border-radius: 29px;
-    margin: 2vw;
-}
-.about {
-    color: #2d2d2d;
-    background-color: white;
-    margin: 30px 0 0 0;
-    width: 100%;
-}
-.description {
-    width: 60%;
-    line-height: 30px;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-}
-.pics {
-    width: 100%;
-    }
-.grid {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-}
-.Grid-cell {
-  width: 30%;
-}
-footer {
-display: flex;
-background-color: black;
-color: white;
-height: 250px;
-align-items: center;
-justify-content: space-between;
-}
-.footer-left {
-text-align: left;
-padding-left: 50px;
-}
-.footer-left p {
-    padding: 6px;
-}
-.footer-right {
-text-align: left;
-padding: 90px;
-}
-.footer-left .lowlight {
-    color: darkgray;    
+/* Media for mobile devices */
+@media screen and (max-width: 600px) {
+ 
+        section {
+            width: 100%;
+            background-color: white;
+            font-size: 16px;
+            font-family: karla, pacifico, sans-serif;
+            color: #2d2d2d;
+            margin: auto;
+            text-align: center;
+            }
+        article {
+            padding: 1.2vw;
+        }
+        .nav-header {
+            display: inline;
+        }
+        header {
+        width: 100%; 
+        top: 0;   
+        }
+        .label {
+            margin: 0;
+            font-size: 2.5vw;
+            padding: 20px 0 0 0;
+        }
+        nav {
+        background-color: black;
+        text-align: center;
+        height: 6vw;
+        width: 100%;
+        top: 0;
+        }
+        .nav-list {
+            color: white;
+            font-size: 2vw;
+            display: inline;
+        }
+        .nav-grid {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+        }
+        .nav-grid div{
+            padding: 0 10px 0 10px;
+        }
+        .logo {
+        width: 21%;
+        }
+        .logo-pic {
+            width: 100%;
+        }
+        /* comments again mate*/
+        h1 {
+            font-size: 7.5vw;
+            width: 100%;
+            font-family: pacifico;
+            margin: 3.3vw 0 1.8vw 0;
+            text-shadow: 2px 2px 4px #646464;
+            text-align: center;
+        }
+        h2 {
+            font-family: pacifico;
+            color: #646464;
+            font-size: 2.9vw;
+            margin: auto;
+            width: 50%;
+        }
+
+        .boat {
+            background-image: url("./images/kayak-bkgd.jpg");
+            color: white;
+            background-size: cover;
+            
+            height: 42.5vw;
+            position: relative;
+            top: 0;
+            
+            margin: auto;   
+        }
+        .boat div {
+            margin: 2vw;
+        }
+        .subheading {
+            font-size: 3.2vw;
+            text-shadow: 2px 2px 4px grey;
+            font-family: pacifico;   
+            
+        }
+        .details {
+            font-size: 1.7vw;
+            background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                            support rgba */
+                background: rgba(54, 25, 25, .6);
+            
+            height: 2.2vw;
+            text-align: center;
+            width: 67%;
+            margin: auto;  
+        }
+        button {
+            background-color: #e2574c;
+            border: none;
+            color: white;
+            padding: 1vw 2vw;
+            text-align: center;
+            text-decoration: none;
+            font-size: 2vw;
+            border-radius: 29px;
+            margin: 2vw;
+            width: 17vw;
+        }
+        .about {
+            color: #2d2d2d;
+            background-color: white;
+            margin: 30px 0 0 0;
+            width: 100%;
+        }
+        .description {
+            width: 60%;
+            font-size:3vw;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+        }
+        .pics {
+            width: 100%;
+            }
+        .grid {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .Grid-cell {
+        width: 30%;
+        }
+        footer {
+        display: flex;
+        background-color: black;
+        color: white;
+        height: 30vw;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 2.5vw;
+        }
+        .footer-left {
+        text-align: left;
+        padding-left: 2vw;
+        }
+        .footer-left p {
+            padding: .5vw;
+        }
+        .footer-right {
+        text-align: left;
+        padding: 10vw;
+        }
+        .footer-left .lowlight {
+            color: darkgray;    
+        }
 }
