@@ -1,279 +1,301 @@
-@font-face {
-    font-family: karla;
-    src: url("./fonts/karla_regular.ttf");
-}
-@font-face {
-    font-family: pacifico;
-    src: url("./fonts/pacifico.ttf");
-}
-
 /* Media for everything */
 body {
     margin: 0
 }
-        section {
-            width: 100%;
-            background-color: white;
-            font-size: 14px;
-            font-family: karla, pacifico, sans-serif;
-            color: #2d2d2d;
-            margin: auto;
-            text-align: center;
-        }
-       @media screen and (min-width: 600px) {
-           section {
-            max-width: 1140px;
-        }
-        }
-       .nav-header {
-            display: inline;
-        }
-        header {
-            width: 100%; 
-            top: 0;   
-        }
-        nav {
-            background-color: black;
-            text-align: center;
-            height: 80px;
-            width: 100%;
-            top: 0;
-        }
-         @media screen and (min-width: 600px) {
-            nav { 
-                height: 60px;
-         }
-         }
-         .nav-list {
-            font-size: 0.9rem;
-            display: inline;
-            color: white;
-         }
-         ul {
-             padding: 0;
-         }
-    @media screen and (min-width: 600px) {
-            .nav-list {
-                font-size: 1.2rem;
-                margin: 0 10px 0 10px;
+section {
+    width: 100%;
+    background-color: white;
+    font-size: 14px;
+    font-family: karla, pacifico, sans-serif;
+    color: #2d2d2d;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (min-width: 1140px) {
+    section {
+        max-width: 1140px;
+        background: #f9f9f9;
             }
-        }
-        .nav-grid {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            height: 100%;
-        }
-          @media screen and (min-width: 600px) {
-            .nav-grid {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: row;
-            height: 100%;
+}
+.nav-header {
+    display: inline;
+}
+header {
+    width: 100%; 
+    top: 0;   
+}
+nav {
+    background-color: black;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    top: 0;
+}
+@media screen and (min-width: 600px) {
+        nav { 
+            height: 60px;
             }
-          }
-        .nav-grid div{
-            padding: 0 10px 0 10px;
-        }
-        .logo {
-            width: 170px;
-            margin: 15px 0 0 0;
-        }
-        @media screen and (min-width: 600px) {
-             .logo {
-            margin: 0;
-             }
-        }
-        .logo-pic {
-            width: 100%;
-        }
-        /* comments again mate*/
-        h1 {
-            font-size: 15vw;
-            font-family: pacifico;
-            text-shadow: 2px 2px 4px #646464;
-            margin: 0;
-        }
-        @media screen and (min-width: 600px) {
-                h1 {
-                font-size: 100px;
-                    }
-          }
-        h2 {
-            font-family: pacifico;
-            color: #646464;
-            font-size: 2.7rem;
-            margin: auto;
-            width: 50%;
-            padding: 2vw;
-        }
+}
+    .nav-list {
+    font-size: 0.9rem;
+    display: inline;
+    color: white;
+    }
+    ul {
+        padding: 0;
+    }
+@media screen and (min-width: 600px) {
+    .nav-list {
+        font-size: 1.2rem;
+        margin: 0 10px 0 10px;
+    }
+}
+.nav-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+@media screen and (min-width: 600px) {
+    .nav-grid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 100%;
+       }
+    }
+.nav-grid div{
+    padding: 0 10px 0 10px;
+}
+.logo {
+    width: 170px;
+    margin: 15px 0 0 0;
+}
+@media screen and (min-width: 600px) {
+    .logo {
+        margin: 0;
+    }
+}
+.logo-pic {
+    width: 100%;
+}
+/* comments again mate*/
+h1 {
+    font-size: 15vw;
+    font-family: pacifico;
+    text-shadow: 2px 2px 4px #646464;
+    margin: 0;
+}
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+h2 {
+    font-family: pacifico;
+    color: #646464;
+    font-size: 2.7rem;
+    margin: auto;
+    width: 50%;
+    padding: 2vw;
+}
 
-        .boat {
-            background-image: url("./images/kayak-bkgd.jpg");
-            color: white;
-            background-size: cover;
-            height: 600px;
-            top: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around; 
-            box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-        }
-        .label {
-            font-size: 2rem;
-            margin: 3rem 0 0 0;
-        }
-        .subheading {
-            font-size: 2rem;
-            text-shadow: 2px 2px 4px grey;
-            font-family: pacifico;   
-            margin: 0;
-        }
-        .details {
-            font-size: 0.9rem;
-            background: rgb(54, 25, 25); /* Fall-back for browsers that don't
-                                            support rgba */
-            background: rgba(54, 25, 25, .6);
-            padding: 2px;
-            margin: 0;
-            max-width: 75%;
-        }
-         @media screen and (min-width: 600px) {
-                .details {
-                 font-size: 1.1rem;
-                }
-         }
-        button {
-            background-color: #e2574c;
-            border: none;
-            color: white;
-            padding: 1vw 2vw;
-            text-decoration: none;
-            font-size: 1.3rem;
-            border-radius: 29px;
-            width: 179px;
-            margin-bottom: 3em;
-        }
-        .about {
-            color: #2d2d2d;
-            background-color: white;
-            margin: 30px 0 0 0;
-            width: 100%;
-        }
-        .description {
-            width: 80%;
-            line-height: 30px;
-            text-align: center;
-            align-items: center;
-            margin: auto;
-        }
-        .pics {
-            width: 100%;
-            }
-        .grid {
-            display: flex;
-            width: 100%;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: column;
-            margin: auto;
-        }
-         @media screen and (min-width: 600px) {
-                .grid {
-                flex-direction: row;
-                width: 98%;
-             }
-         }
-        .Grid-cell {
-            width: 98%;
-            margin: 2% 0 2% 0;
-            
-        }
-         @media screen and (min-width: 600px) {
-             .Grid-cell {
-            width: 30%;
-            margin: 0
-             }
-         }
-        location {
-            padding: 5vw;
-        }
-        footer {
-            display: flex;
-            background-color: black;
-            color: white;
-            height: 250px;
-            align-items: center;
-            justify-content: space-between;
-            padding: 2vw;
-            margin: 4vw 0 0 0;
-        }
-        .footer-left {
-            text-align: left;
-            padding-left: 2vw;
-        }
-        .footer-left p {
-            padding: .5vw;
-        }
-        .footer-right {
-            text-align: left;
-        
-        }
-        .footer-left .lowlight {
-            color: darkgray;    
-        }
-        .rentals {
-            display: flex;
-            text-align: left;
-            width: 98%;
-            margin: auto;
-            flex-direction: column;
-        }
-         @media screen and (min-width: 600px) {
-            .rentals {
-            flex-direction: row;
-            align-items: top;
-            justify-content: space-between;
-            text-align: left;
-            width: 98%;
-             }
-            .rental-info {
-                width: 45%;
-                padding: 0;
-            }
-            .pricing-table {
-                width: 50%;
-                text-align: center;
-            }
-        }
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-          th {
-            height: 30px;
-            width: 17%;
-            background: lightgray;
-          }
-          @media screen and (min-width: 600px) {
-        th {
-            height: 30px;
-            width: 12vw;
-            background: lightgray;
-        }
-          }
-        td {
-            height: 30px;
-            
-        }
-        td, th {
-        padding: 0 1rem 0 1rem;
+.boat {
+    background-image: url("./images/kayak-bkgd.jpg");
+    color: white;
+    background-size: cover;
+    height: 600px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+.label {
+    font-size: 1.5rem;
+    margin: 3rem 0 0 0;
+}
+@media screen and (min-width: 600px) {
+    .label {
+        font-size: 2rem;
+    }
+}
+.subheading {
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px grey;
+    font-family: pacifico;   
+    margin: 0;
+}
+.details {
+    font-size: 0.9rem;
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .6);
+    padding: 2px;
+    margin: 0;
+    max-width: 75%;
+}
+@media screen and (min-width: 600px) {
+    .details {
+        font-size: 1.1rem;
+    }
+}
+button {
+    background-color: #e2574c;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 29px;
+    width: 179px;
+    margin-bottom: 3em;
+}
+.about {
+    color: #2d2d2d;
+    margin: 30px 0 0 0;
+    width: 100%;
+}
+.description {
+    width: 80%;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.pics {
+    width: 100%;
+    }
+.grid {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+}
+@media screen and (min-width: 600px) {
+    .grid {
+        flex-direction: row;
+        width: 98%;
+    }
+}
+.Grid-cell {
+    width: 98%;
+    margin: 2% 0 2% 0;
+    
+}
+@media screen and (min-width: 600px) {
+    .Grid-cell {
+        width: 30%;
+        margin: 0
+    }
+}
+location {
+    padding: 5vw;
+}
+
+.rentals {
+    display: flex;
+    text-align: left;
+    width: 98%;
+    margin: auto;
+    flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+    .rentals {
+        flex-direction: row;
+        align-items: top;
+        justify-content: space-between;
+        text-align: left;
+        width: 98%;
+    }
+    .rental-info {
+        width: 45%;
+        padding: 0;
+    }
+    .pricing-table {
+        width: 50%;
         text-align: center;
-        }
-        .duration {
-            text-align: left;
-        } 
+    }
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+    th {
+    height: 30px;
+    width: 17%;
+    background: lightgray;
+    }
+td {
+    height: 30px;
+    
+}
+td, th {
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+}
+.duration {
+    text-align: left;
+} 
+@media screen and (min-width: 600px) {
+    th {
+        height: 30px;
+        width: 12vw;
+        background: lightgray;
+    }
+}
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5vw 0 5vw 0;
+}
+.footer-left {
+        text-align: center;
+}
+@media screen and (min-width: 600px) {
+    footer { 
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 6vw 0 3vw;
+        margin: 4vw 0 0 0;
+        text-align: left;
+    }
+    .footer-left {
+        text-align: left;
+    }
+}
+.footer-right {
+    text-align: left;
+}
+.footer-left .lowlight {
+    color: darkgray;    
+}
+.footer-list li {
+    list-style: none;
+    display: inline;
+}
+.footer-list a {
+    display: none;
+}
+@media screen and (min-width: 600px) {
+    .footer-list li {
+        display: block;
+    }
+    .footer-list a {
+    display: unset;
+    }
+}
+
+
 
