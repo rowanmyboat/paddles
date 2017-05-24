@@ -281,16 +281,20 @@ footer {
 .footer-left .lowlight {
     color: darkgray;    
 }
-.footer-list li {
-    list-style: none;
-    display: inline;
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35vw;
 }
 .footer-list a {
     display: none;
-}
+    }
 @media screen and (min-width: 600px) {
-    .footer-list li {
-        display: block;
+    .footer-list {
+    flex-direction: column;
+    width: auto;
+    height: 110px;
     }
     .footer-list a {
     display: unset;
