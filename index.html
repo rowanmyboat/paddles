@@ -10,7 +10,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="This is a sweet asss site about the things">
-      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="./script.js"></script>
     </head>
 
     <body >
@@ -24,9 +25,9 @@
                         </div>
                         <div>
                             <ul>  
-                                <li class="nav-list">ABOUT</li>
-                                <li class="nav-list">RENTALS</li>
-                                <li class="nav-list">LOCATION</li>
+                                <li class="nav-list"><a href="#about">ABOUT</a></li>
+                                <li class="nav-list"><a href="#rentals">RENTALS</a></li>
+                                <li class="nav-list"><a href="#locations">LOCATIONS</a></li>
                             </ul>  
                         </div>
                     </div>
@@ -40,8 +41,8 @@
                 </div>
             </header>
            
-            <article > 
-                <div class=about>
+            <article id="about"> 
+                <div>
                     <h2>About</h2>
                     <div class=description>
                         <p>Perfect Paddles Kayak Rentals Co. offers you the unique opportunity to experience 
@@ -62,7 +63,7 @@
                 </div>        
             </article>   
           
-            <article>
+            <article id="rentals">
                 <h2>Rentals</h2>  
                 <div class=rentals>
                     <div class="rental-info">
@@ -101,7 +102,7 @@
                 </div>    
             </article> 
          
-            <article> 
+            <article id="locations"> 
                 <h2>Location</h2> 
                 <p class="location">Come visit us at our location on Cornwall Avenue and Yew Street in Vancouver:</p>
                 <div>
