@@ -407,7 +407,7 @@ footer {
     width: 35vw;
 }
 
-.footer-list a {
+.footer-list span {
     display: none;
 }
 
@@ -417,9 +417,14 @@ footer {
         width: auto;
         height: 110px;
     }
-    .footer-list a {
+    .footer-list span {
         display: unset;
     }
+}
+
+.fa {
+    text-decoration: none;
+    color: white;
 }
 
 
