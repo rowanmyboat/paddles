@@ -7,6 +7,14 @@ body {
     color: #2d2d2d;
 }
 
+.screen-reader-text {
+   clip: rect(1px, 1px, 1px, 1px);
+   position: absolute !important;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+}
+
 li a {
     color: white;
     text-decoration:none;
@@ -134,8 +142,34 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;  
+}
+
+.contact-form {
+    background-image:linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("./images/kayak-bkgd.jpg");
+    color: white;
+    background-size: cover;
+    height: 600px;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     justify-content: space-around; 
-    
+    height: 90%;
+    width: 65%;
+    margin: auto;
+    padding: 2em;
+}
+
+.form-selectors {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
 }
 
 .label {
@@ -172,7 +206,7 @@ h2 {
     }
 }
 
-button {
+.boat button {
     background-color: #e2574c;
     border: none;
     color: white;
@@ -181,11 +215,38 @@ button {
     font-size: 1.3rem;
     border-radius: 29px;
     width: 179px;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     transition: background 0.3s ease;
 }
 
-button:hover {
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.signup-button{
+     align-self: center;
+}
+
+.signup-button input {
+    background-color: #e2574c;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 29px;
+    width: 195px;
+    transition: background 0.3s ease;
+    text-align: center;
+   
+}
+
+.boat button:hover {
+    background-color: #b64036;
+}
+
+.signup-button input:hover {
     background-color: #b64036;
 }
 
@@ -246,6 +307,10 @@ location {
     width: 98%;
     margin: auto;
     flex-direction: column;
+}
+
+#rentals u {
+    color: red;
 }
 
 @media screen and (min-width: 600px) {
