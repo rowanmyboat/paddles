@@ -48,11 +48,13 @@ nav {
     height: 80px;
     width: 100%;
     top: 0;
+    
 }
 
 @media screen and (min-width: 600px) {
     nav { 
         height: 60px;
+        max-width: 1140px;
     }
 }
 
