@@ -1,0 +1,91 @@
+
+.contact-form {
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.2)), to(rgba(0,0,0,.2))), url("./images/kayak-bkgd.jpg");
+    background-image:linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("./images/kayak-bkgd.jpg");
+    color: white;
+    background-size: cover;
+    height: 600px;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+}
+
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; 
+    height: 90%;
+    width: 85%;
+    margin: auto;
+    padding: 2em;
+}
+
+.form-selectors {
+    font-size: 1.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 75%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+input {
+    width: 200px;
+}
+
+@media screen and (min-width: 600px) {
+    .form-selectors {
+        width: 500px; 
+        -webkit-box-orient: horizontal; 
+        -webkit-box-direction: normal; 
+            -ms-flex-direction: row; 
+                flex-direction: row;
+    }
+}
+
+.signup-button{
+     -ms-flex-item-align: center;
+         align-self: center;
+}
+
+.signup-button input {
+    background-color: #e2574c;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 29px;
+    width: 195px;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+    text-align: center;
+   
+}
+
+.signup-button input:hover {
+    background-color: #b64036;
+}
